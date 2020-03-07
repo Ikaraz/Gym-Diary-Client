@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertDetailsActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:id="@+id/insertDetailsTopView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/txtExerciseName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="30sp"
+                android:textColor="@color/colorText"
+                android:text="Exercise Name"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/editTextReps"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtExerciseName"
+                android:hint="reps count"
+                android:textColorHint="@color/colorText"
+                android:textColor="@color/colorText"
+                android:textSize="30sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/editTextWeight"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTextReps"
+                android:hint="weight"
+                android:textColorHint="@color/colorText"
+                android:textColor="@color/colorText"
+                android:textSize="30sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/insertDetailsTopView"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/btnAddNew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorText"
+                android:text="Add"
+                android:textSize="12sp"
+                android:drawableTop="@drawable/ic_add_black_24dp"
+                android:background="@drawable/blue_button"/>
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear"
+                android:textSize="12sp"
+                android:textColor="@color/colorText"
+                android:drawableTop="@drawable/ic_clear_black_24dp"
+                android:background="@drawable/green_button"
+                android:layout_toEndOf="@+id/btnAddNew"
+                android:layout_marginStart="50dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">GymDiary</string>
+
+    <string-array name="exercises" id="1">
+        <item>Back</item>
+        <item>Chest</item>
+        <item>Legs</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Shoulders</item>
+        <item>Abs</item>
+    </string-array>
+
+    <string-array name="Back">
+        <item>Pull-up</item>
+        <item>Lateral pull-down</item>
+        <item>Lateral cable pull-down</item>
+        <item>Bent-over row</item>
+        <item>Deadlift</item>
+        <item>Row</item>
+    </string-array>
+    <string-array name="Chest">
+        <item>Bench press</item>
+        <item>Dumb chest press</item>
+        <item>Seated chest press</item>
+        <item>Chest fly</item>
+        <item>Seated chest fly</item>
+        <item>Push-up</item>
+    </string-array>
+    <string-array name="Legs">
+        <item>Squat</item>
+        <item>Leg press</item>
+        <item>Lunge</item>
+        <item>Leg extension</item>
+        <item>Leg curl</item>
+    </string-array>
+    <string-array name="Biceps">
+        <item>Biceps bar curl</item>
+        <item>Biceps cable curl</item>
+        <item>Biceps dumbbell curl</item>
+    </string-array>
+    <string-array name="Triceps">
+        <item>Triceps bar extension</item>
+        <item>Triceps cable extension</item>
+        <item>Triceps dumbbell extension</item>
+    </string-array>
+    <string-array name="Shoulders">
+        <item>Shoulder press</item>
+        <item>Front raise</item>
+        <item>Lateral raise</item>
+        <item>Shoulder shrug</item>
+    </string-array>
+    <string-array name="Abs">
+        <item>Crunch</item>
+        <item>Russian twist</item>
+        <item>Leg raise</item>
+    </string-array>
+
+</resources>
